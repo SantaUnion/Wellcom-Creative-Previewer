@@ -57,15 +57,15 @@
 		
 		// --------------------------------------------------------------------------------------------------------------
 		// Logo - Colour Theme:				
-		$logo			= array("white" 				=> "/wellcom-Creative-Previewer/assets/images/wellcomlogo-white-theme.png",
-								"grey"				=> "/wellcom-Creative-Previewer/assets/images/wellcomlogo-white-theme.png",
-								"black"				=> "/wellcom-Creative-Previewer/assets/images/wellcomlogo-black-theme.png"
+		$logo			= array("white" 				=> "/Wellcom-Creative-Previewer/assets/images/wellcomlogo-white-theme.png",
+								"grey"				=> "/Wellcom-Creative-Previewer/assets/images/wellcomlogo-white-theme.png",
+								"black"				=> "/Wellcom-Creative-Previewer/assets/images/wellcomlogo-black-theme.png"
 						);				
 		
 				
 		$logo			= $logo[$themename];
 		
-		$exclamation	= "/wellcom-Creative-Previewer/assets/images/exclamation.png";	
+		$exclamation	= "/Wellcom-Creative-Previewer/assets/images/exclamation.png";	
 		
 		
 		// --------------------------------------------------------------------------------------------------------------
@@ -148,16 +148,16 @@
         <!-- CSS -------------------------------------------------------------- -->
 
         <!-- Font Awesome -->
-        <link rel="stylesheet" href="/wellcom-Creative-Previewer/assets/fonts/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/Wellcom-Creative-Previewer/assets/fonts/font-awesome/css/font-awesome.min.css">
         
         <!-- Colour Themes -->
         <?php 
 			if ($themename == "white") {
-				echo "<link rel='stylesheet' type='text/css' href='/wellcom-Creative-Previewer/assets/css/creative-preview-default.css' />"; 
+				echo "<link rel='stylesheet' type='text/css' href='/Wellcom-Creative-Previewer/assets/css/creative-preview-default.css' />"; 
 			} else if ($themename == "grey") {
-				echo "<link rel='stylesheet' type='text/css' href='/wellcom-Creative-Previewer/assets/css/creative-preview-grey.css' />"; 			
+				echo "<link rel='stylesheet' type='text/css' href='/Wellcom-Creative-Previewer/assets/css/creative-preview-grey.css' />"; 			
 			} else {
-				echo "<link rel='stylesheet' type='text/css' href='/wellcom-Creative-Previewer/assets/css/creative-preview-black.css' />"; 	
+				echo "<link rel='stylesheet' type='text/css' href='/Wellcom-Creative-Previewer/assets/css/creative-preview-black.css' />"; 	
 			}
 
 		?>
@@ -199,7 +199,7 @@
         
         <!-- JS -------------------------------------------------------------- -->
 		
-		<script src="/wellcom-Creative-Previewer/assets/js/swfobject.js" type="text/javascript"></script>
+		<script src="/Wellcom-Creative-Previewer/assets/js/swfobject.js" type="text/javascript"></script>
         <script type="text/javascript">
 			// SWFObject
 			//<![CDATA[
