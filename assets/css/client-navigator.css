@@ -1,0 +1,212 @@
+
+
+
+/* ------------------------------------------------------------------------------------------
+   Reset styles 
+  ------------------------------------------------------------------------------------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline; }
+
+body { line-height: 1; color: black; background: white; }
+
+table { border-collapse: separate; border-spacing: 0; }
+
+caption, th, td { text-align: left; font-weight: normal; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; }
+
+blockquote, q { quotes: "" ""; }
+
+/* -------------------------------------------------------------------------------- */
+/* HTML5 tags */
+header, section, footer,
+aside, nav, article, figure { display: block; }
+
+/* -------------------------------------------------------------------------------- */
+/* hand cursor on clickable input elements */
+label, input[type=button], input[type=submit], button { cursor: pointer; border-radius:15px; }
+
+/* -------------------------------------------------------------------------------- */
+/* make buttons play nice in IE:	  	www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
+button { width: auto; overflow: visible; }
+
+/* -------------------------------------------------------------------------------- */
+/* Sharper Thumbnails */
+img { -ms-interpolation-mode: bicubic; }
+
+
+
+
+/* -------------------------------------------------------------------------------- */
+/*   Preview styles  */
+  
+BODY { font: 14px/1.8em 'Open Sans', Helvetica, Arial, Helvetica, sans-serif;
+	color: #444;
+	background: #fff;
+	-webkit-font-smoothing: antialiased;}
+	
+#header	{height:51px; border-bottom:#CCC 1px solid; }
+
+#header	img {padding:0 10px 0 5px;}
+
+#company { font-size:22px; color:#333; line-height:46px;}
+
+span#maintitle {float:right; line-height:50px; padding:0 20px 0 0;}
+
+#prevexplorer { font-size:22px; color:#CCC; line-height:50px; font-size:22px;}
+
+
+
+
+A { color: #000000; text-decoration: none; }
+
+A:hover { text-decoration: underline; }
+
+#top { width:100%; padding-bottom: 20px;}
+
+#top a span, #top a:hover, #top a span:hover{ color:#666;  text-align:left; font-size:24px;  }
+
+#top a { display:block; padding:20px 0 0 10px; }
+
+#top span { display:block; }
+
+div.subtitle{ width:80%; margin: 0 auto; color:#68a9d2; text-align:center; }
+
+#framewrapper {  max-width:680px;  margin: 50px auto 0px auto; }
+
+#frame { border: 1px solid #CDD2D6; text-align:left; position: relative; overflow:hidden;  border-radius:3px; }
+
+#error { max-width:450px; background-color:#FFE4E1; color:#000000; padding:7pt; position: relative; margin: 10pt auto; text-align:center; border: 1px dotted #CDD2D6; }
+
+input { border: 1px solid #CDD2D6; }
+
+.bar{ width:100%; clear:both; height:1px; }
+
+
+/* -------------------------------------------------------------------------------- */
+/* File list */
+
+table.table { width:100%; border-collapse: collapse;  }
+
+table.table td{ padding:10px; }
+
+table.table tr.row.two { background-color:#fcfdfe; }
+
+table.table tr.row.one { background-color:#f8f9fa; }
+
+table.table tr.row td.icon { width:35px; padding-top:3px; padding-left:15px; padding-bottom:1px; }
+
+table.table td.del { width:25px; }
+
+table.table tr.row td.size { width: 100px;  text-align: right; }
+
+table.table tr.row td.changed { width: 150px; text-align: center; }
+
+table.table tr.header img { vertical-align:bottom; }
+
+table img{ border:0; }
+
+/* -------------------------------------------------------------------------------- */
+/* Info area */ 
+
+#info { color:#666; max-width:680px; position: relative; margin: 0 auto; text-align:center; font-size:13px;}
+
+#info  a { color:#666; }
+
+/* -------------------------------------------------------------------------------- */
+/* Thumbnail area */
+
+#thumb { position:absolute; border: 1px solid #CDD2D6; background:#f8f9fa; display:none; padding:3px; }
+
+#thumb img { display:block; }
+
+
+/* -------------------------------------------------------------------------------- */
+/* Login bar (at the bottom of the page) */
+
+#login_bar { margin: 0 auto; margin-top:2px; max-width:680px; }
+
+#login_bar input.submit{ float:right; }
+
+
+/* -------------------------------------------------------------------------------- */
+/* Upload area */
+
+#upload { margin: 0 auto; margin-top:2px; max-width:680px; }
+
+#upload #password_container { margin-right:20px; }
+
+#upload #newdir_container, #upload #password_container { float:left; }
+
+#upload #upload_container{ float:right; }
+
+#upload input.upload_dirname, #upload input.upload_password{ width:140px; }
+
+#upload input.upload_file{ font-size:small; }
+
+
+/* -------------------------------------------------------------------------------- */
+/* Breadcrumbs */
+
+div.breadcrumbs { display:block; padding:1px 3px 0px 10px; color:#ccc;  font-size:x-small; }
+
+div.breadcrumbs a{ display:inline-block; color:#999; padding:2px 0; font-size:small; }
+
+
+/* -------------------------------------------------------------------------------- */
+/* Login area */
+
+#login { max-width:260px; text-align:right; margin:35px auto 25px auto; }
+
+#login div { display:block; width:100%; margin-top:5px; }
+
+#login input[type="text"], #login input[type="password"] { width:150px; height:20px; margin:0 0 10px 10px;}
+
+#login input[type="submit"] { background:#EDEDED; padding:5px 20px;}
+
+#login label{ width: 220px; text-align: right; }
+
+
+/* -------------------------------------------------------------------------------- */
+/* Mobile interface */
+
+body.mobile #frame, body.mobile #info, body.mobile #upload { max-width:none; }
+
+body.mobile { font-size:medium; }
+
+body.mobile a.item { display:block; padding:10px 0; }
+
+body.mobile a.item span.size { float:right; margin-left:10px; }
+
+body.mobile table.table { margin-bottom:30px; }
+
+body.mobile table.table tr td { border-top: 1px solid #CDD2D6; }
+
+body.mobile table.table tr.last td { border-bottom: 1px solid #CDD2D6; }
+
+body.mobile #top { padding-bottom:3px; }
+
+body.mobile #top a { padding-top:3px; }
+
+body.mobile #upload #password_container, body.mobile #upload #upload_container, body.mobile #upload #newdir_container { float:none; margin-top:5px; }
+
+body.mobile #upload input.upload_dirname, body.mobile #upload input.upload_password{ width:240px; }
+
+body.mobile #upload { margin-bottom:15px; }

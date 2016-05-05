@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@charset "UTF-8";
+/* CSS Document */
+
+/* Default style, feel free to remove if not needed. */
+body, body * 			{ vertical-align: baseline; border: 0; outline: 0; padding: 0; margin:0; }
+
+/* Div layer for the entire banner. */
+#container_dc 			{ position: absolute; width: 298px; height: 248px; top: 0px; left: 0px; margin: auto; border:1px solid #CCC;}
+
+#content_dc 			{ position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; background-color: #FFF; z-index: 100; 
+                            background-repeat: no-repeat; overflow:hidden; /* background:url(storyboard.jpg) 0px -500px; */ }
+
+/* Invisible button for background clickthrough. */
+#background_exit_dc 	{ position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; cursor: pointer; opacity: 0; z-index: 400;}
+
+:focus 					{outline:none;}
+::-moz-focus-inner 		{border:0;}
+
+
+
+
+/* Animation Asssets */
+
+#car					{ position:absolute; left:4px; top:45px; background:url('car.jpg'); width:288px; height:209px;}
+
+#title 					{ position:absolute; left:0px; top:20px; background:url('title.jpg'); width:124px; height:12px;}
+
+#audi_logo 				{ position:absolute; left:215px; top:10px;  background:url('audi_logo.jpg'); width:76px; height:39px;}
+
+#txt1 					{ position:absolute; left:38px; top:70px; background:url('txt1.jpg'); width:222px; height:14px;}
+
+#txt2 					{ position:absolute; left:35px; top:70px; background:url('txt2.jpg'); width:231px; height:14px;}
+
+#txt3 					{ position:absolute; left:20px; top:90px; background:url('txt3.jpg'); width:230px; height:39px;}
+
+#cta 					{ position:absolute; left:20px; top:143px; background:url('cta.jpg'); width:143px; height:27px;}
+
+#tandc 					{ position:absolute; left:20px; top:210px; background:url('tandc.jpg'); width:155px; height:24px;}
+
+#overlay				{ position:absolute; top:0px; left:0px; width:300px; height:300px; background:#FFF;}
+
+#border					{ position:absolute; top:0px; left:0px; width:298px; height:248px; }
+
+

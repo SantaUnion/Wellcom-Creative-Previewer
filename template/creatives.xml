@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<campaign>
+
+	<agency>Wellcom</agency>
+    <client>Audi</client>
+    <campaign>Approved Used</campaign>
+	<developer>Lee Redmond</developer>
+    <role>HTML5 Animation</role>
+	<route>Standard HTML5</route>
+	<clicktag>http://www.audi.co.uk/audi/used-cars</clicktag>
+    <prefix>audi_approved_used_</prefix>
+    
+    <creatives>
+        <creative>300x250</creative>
+        <creative>728x90</creative>
+		<creative>300x600</creative>
+    </creatives>
+
+
+</campaign>
+
+
