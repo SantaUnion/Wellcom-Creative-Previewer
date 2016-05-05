@@ -1,29 +1,13 @@
 <?php
 		// --------------------------------------------------------------------------------------------------------------
 		/*  
-			TITLE:			Client Preview Page	
-			VERSION:		2.6
-			DATE:			03-05-2016
+			TITLE:			Wellcom-Creative-Previewer	
+			VERSION:		1.0
+			DATE:			05-05-2016
 			AUTHOR:			Lee Redmond
-			NOTES:			Wellcom / BBH php page previewer.
+			NOTES:			Wellcom / BBH. Creative Banner Previewer.
 			
-			FEATURES:		2.6 	Change to XML creative - developer [eg. Lee Redmond] and role [eg. HTML Animation] added
-									Background set - change colour theme to either White, Grey or White
-							2.5		Share Preview buttom with email link
-							2.4		Date Stamp added to header infomation
-							2.3		Import of XML datapreview information
-							2.2		HTML5 Preview integration
-							2.1		!NOT IMPLEMENTED YET - DISABLED! Packaged ZIP download feature - all swfs, jpg's, png's are zipped when page loads and download button available.
-							2.0		Logical file size of the creative added to info bar eg. Size: 39kb - displays 'n/a' if no Flash or Backup exists
-							1.9 	Minor text change 'Format' is now Creative
-							1.8 	Exclamation icon prompt display's when creative is misssing.
-							1.7 	Graceful Degradation if no Flash Plug-in available to Backup, and finally if no Backup available display User Prompt.
-							1.6 	Display User Prompt if no Flash or Backup is available.
-							1.5 	RegExp dimension calculator based on banner list names.
-							1.4 	Dynamic 'Co-Partner' logo branding - set this using the $coPartner variable ie Space66 + Atomic / Space66 + BBH logos.
-							1.3 	Responsive CSS for Desktop / Tablet / Mobile.
-							1.2 	Backup preview mode / defaults to backup mode if Flash is not available.
-							1.1 	Drop-down menu selector.
+			FEATURES:		1.0 - Background Colour Themes - White/Grey/Black
 							
 		
 		*/
@@ -73,15 +57,15 @@
 		
 		// --------------------------------------------------------------------------------------------------------------
 		// Logo - Colour Theme:				
-		$logo			= array("white" 				=> "/creative-previewer/assets/wellcomlogo-white-theme.png",
-								"grey"				=> "/creative-previewer/assets/wellcomlogo-white-theme.png",
-								"black"				=> "/creative-previewer/assets/wellcomlogo-black-theme.png"
+		$logo			= array("white" 				=> "/wellcom-Creative-Previewer/assets/images/wellcomlogo-white-theme.png",
+								"grey"				=> "/wellcom-Creative-Previewer/assets/images/wellcomlogo-white-theme.png",
+								"black"				=> "/wellcom-Creative-Previewer/assets/images/wellcomlogo-black-theme.png"
 						);				
 		
 				
 		$logo			= $logo[$themename];
 		
-		$exclamation	= "/creative-previewer/assets/exclamation.png";	
+		$exclamation	= "/wellcom-Creative-Previewer/assets/images/exclamation.png";	
 		
 		
 		// --------------------------------------------------------------------------------------------------------------
@@ -164,16 +148,16 @@
         <!-- CSS -------------------------------------------------------------- -->
 
         <!-- Font Awesome -->
-        <link rel="stylesheet" href="/creative-previewer/assets/fonts/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/wellcom-Creative-Previewer/assets/fonts/font-awesome/css/font-awesome.min.css">
         
         <!-- Colour Themes -->
         <?php 
 			if ($themename == "white") {
-				echo "<link rel='stylesheet' type='text/css' href='/creative-previewer/assets/creative-preview-default.css' />"; 
+				echo "<link rel='stylesheet' type='text/css' href='/wellcom-Creative-Previewer/assets/css/creative-preview-default.css' />"; 
 			} else if ($themename == "grey") {
-				echo "<link rel='stylesheet' type='text/css' href='/creative-previewer/assets/creative-preview-grey.css' />"; 			
+				echo "<link rel='stylesheet' type='text/css' href='/wellcom-Creative-Previewer/assets/css/creative-preview-grey.css' />"; 			
 			} else {
-				echo "<link rel='stylesheet' type='text/css' href='/creative-previewer/assets/creative-preview-black.css' />"; 	
+				echo "<link rel='stylesheet' type='text/css' href='/wellcom-Creative-Previewer/assets/css/creative-preview-black.css' />"; 	
 			}
 
 		?>
@@ -215,7 +199,7 @@
         
         <!-- JS -------------------------------------------------------------- -->
 		
-		<script src="/creative-previewer/assets/swfobject.js" type="text/javascript"></script>
+		<script src="/wellcom-Creative-Previewer/assets/js/swfobject.js" type="text/javascript"></script>
         <script type="text/javascript">
 			// SWFObject
 			//<![CDATA[
