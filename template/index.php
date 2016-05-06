@@ -12,7 +12,7 @@
 		
 		*/
 
-		$sVersion		  	= '2.6';
+		$sVersion		  	= '1.0';
 		$sPreviewDownload  	= "https://github.com/SantaUnion/Wellcom-Creative-Previewer.git";
 
 		// --------------------------------------------------------------------------------------------------------------
